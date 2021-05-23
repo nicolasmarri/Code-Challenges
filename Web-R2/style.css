@@ -1,0 +1,24 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: 0.5px solid;
+    padding: 5px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(202, 199, 199);
+}
+
+tbody tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
