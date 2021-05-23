@@ -1,0 +1,52 @@
+video{
+    max-width: 100%;
+}
+
+div.container-text h5{
+    font-family: 'Permanent Marker', cursive;
+    font-size: calc(1em + 1vw);
+}
+
+div.container-text p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    font-size: calc(0.7em + 1vw);
+}
+
+.container-social-networks{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin: 0 46px 0 46px;
+    top: 10vh;
+  }
+
+/* Desktop View */
+@media screen and (min-width: 768px){
+
+    .container{
+        display: flex;
+    }
+    .container-video{
+        position: relative;
+        width: 50%;
+        padding-top: 4vw;
+        padding-left: 5vw;
+    }
+    .container-text{
+        width: 30%;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    div.container-text h5{
+        font-size: calc(0.5em + 1vw);
+    }
+    
+    div.container-text p{
+        font-size: calc(0.2em + 1vw);
+    }
+
+    .container-footer{
+        display:none
+    }
+}
